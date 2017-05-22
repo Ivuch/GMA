@@ -12,11 +12,18 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname+'/index.html')
 })
 
+
+app.listen(80, function () {
+  console.log('Example app listening on port 80!')
+})
+
+/*
 //Set port 80 for production, 8080 for dev
 http.createServer(function (req, res) {
    // res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
     //res.end();
 }).listen(80);
+*/
 
 /*
 var options = {
