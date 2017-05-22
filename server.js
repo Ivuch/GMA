@@ -14,11 +14,11 @@ app.get('/', function (req, res) {
 
 //Set port 80 for production, 8080 for dev
 http.createServer(function (req, res) {
-    res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
-    res.end();
+   // res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
+    //res.end();
 }).listen(80);
 
-
+/*
 var options = {
 	key: fs.readFileSync('/etc/letsencrypt/live/www.gmasalud.com.ar/privkey.pem'),
   	cert: fs.readFileSync('/etc/letsencrypt/live/www.gmasalud.com.ar/fullchain.pem'),
