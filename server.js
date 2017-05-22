@@ -30,4 +30,5 @@ var options = {
 var sserver = https.createServer(options, app).listen(443, function(){
 	console.log("Secure conction Established - HTTPS - SSL")
 })
+*/
 
