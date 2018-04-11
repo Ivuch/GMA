@@ -1,5 +1,5 @@
 {
-  "name": "gma",
+  "name": "hashtagueame",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
@@ -14,11 +14,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ivuch/gma.git"
+    "url": "git+https://github.com/Ivuch/hashtagueame.git"
   },
   "bugs": {
-    "url": "https://github.com/Ivuch/gma/issues"
+    "url": "https://github.com/Ivuch/hashtagueame/issues"
   },
-  "homepage": "https://github.com/Ivuch/gma#readme",
+  "homepage": "https://github.com/Ivuch/hashtagueame#readme",
   "description": ""
 }
